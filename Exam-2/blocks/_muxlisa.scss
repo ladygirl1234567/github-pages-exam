@@ -1,0 +1,71 @@
+.muxlisa {
+  display: flex;
+  gap: 125px;
+  margin-bottom: 80px;
+  .img {
+    max-width: 540px;
+    img {
+      display: block;
+      height: 100%;
+    }
+  }
+  .text {
+    max-width: 350px;
+    width: 100%;
+    padding-top: 103px;
+    padding-bottom: 120px;
+    border-top: 2px solid rgba($color: #000000, $alpha: 0.2);
+    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.2);
+    h2 {
+      font-family: 'Ibarra Real Nova', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.357143px;
+      padding-bottom: 28px;
+      color: #33323d;
+    }
+    p {
+      font-family: 'Public Sans',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #33323d;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      padding-bottom: 41px;
+    }
+    a {
+      font-family: 'Public Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #33323d;
+      border: 1px solid black;
+      padding: 17px 36px 17px 32px;
+    }
+    a:hover {
+        background-color: #33323d;
+        color: #fff;
+    }
+  }
+}
+.bookmark {
+  padding-left: 97px;
+  .img {
+    order: 2;
+  }
+}
+.fylo {
+  padding-left: 97px;
+  margin-bottom: 150px;
+  .img {
+    order: 2;
+  }
+}
